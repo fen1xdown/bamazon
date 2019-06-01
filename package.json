@@ -1,0 +1,24 @@
+{
+  "name": "bamazon",
+  "version": "1.0.0",
+  "description": "Node.js &amp; MySQL Store Front Homework UCLA Extension Coding Bootcamp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ralphcomplido/bamazon-HW.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ralphcomplido/bamazon-HW/issues"
+  },
+  "homepage": "https://github.com/ralphcomplido/bamazon-HW#readme",
+  "dependencies": {
+    "console.table": "^0.9.1",
+    "inquirer": "^4.0.0",
+    "mysql": "^2.17.1"
+  }
+}
