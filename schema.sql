@@ -16,16 +16,16 @@ CREATE TABLE products(
 SELECT * FROM products;
 
 INSERT INTO products (product_name, department_name, price, stock_quantity)
-VALUES ("Uncharted 4", "Video Games", 49.95, 150),
-  ("DOOM", "Video Games", 59.99, 200),
-  ("Crate of Spam", "Food and Drink", 24.50, 50),
-  ("Cool Shades", "Apparel", 75.00, 5),
-  ("Worn Denim Jeans", "Apparel", 54.25, 35),
-  ("Survival Towel", "Necessities", 42.42, 42),
-  ("Bill and Ted's Excellent Adventure", "Films", 15.00, 25),
+VALUES ("Squad", "Video Games", 39.99, 150),
+  ("ARMA 3", "Video Games", 29.99, 200),
+  ("Crate of Cherry Bawls", "Food and Drink", 29.99, 50),
+  ("Aviator Sunglasses", "Apparel", 250.00, 5),
+  ("Ripped Jeans", "Apparel", 99.99, 35),
+  ("Bath Towel", "Household Items", 24.99, 42),
+  ("Black Hawk Down", "Films", 9.00, 25),
   ("Mad Max: Fury Road", "Films", 25.50, 57),
-  ("Monopoly", "Board Games", 30.50, 35),
-  ("Yahtzee", "Board Games", 19.95, 23);
+  ("Dungeons and Dragons Fifth Edition Complete Set", "Tabletop Games", 199.99, 35),
+  ("Secret Hitler", "Board Games", 24.99, 23);
 
   CREATE TABLE departments(
   department_id INT AUTO_INCREMENT NOT NULL,
