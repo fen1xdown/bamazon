@@ -22,10 +22,10 @@ VALUES ("Squad", "Video Games", 39.99, 150),
   ("Aviator Sunglasses", "Apparel", 250.00, 5),
   ("Ripped Jeans", "Apparel", 99.99, 35),
   ("Bath Towel", "Household Items", 24.99, 42),
-  ("Black Hawk Down", "Films", 9.00, 25),
-  ("Mad Max: Fury Road", "Films", 25.50, 57),
+  ("Black Hawk Down", "Movies", 9.00, 25),
+  ("Mad Max: Fury Road", "Movies", 25.50, 57),
   ("Dungeons and Dragons Fifth Edition Complete Set", "Tabletop Games", 199.99, 35),
-  ("Secret Hitler", "Board Games", 24.99, 23);
+  ("Secret Hitler", "Tabletop Games", 24.99, 23);
 
   CREATE TABLE departments(
   department_id INT AUTO_INCREMENT NOT NULL,
@@ -37,9 +37,9 @@ VALUES ("Squad", "Video Games", 39.99, 150),
 SELECT * FROM departments;
 
 INSERT INTO departments (department_name, over_head_costs)
-VALUES ("Video Games", 200),
-  ("Food and Drink", 100),
-  ("Apparel", 50),
-  ("Necessities", 300),
-  ("Films", 35),
-  ("Board Games", 0);
+VALUES ("Video Games", 150),
+  ("Food and Drink", 500),
+  ("Apparel", 175),
+  ("Household Items", 350),
+  ("Movies", 55),
+  ("Tabletop Games", 25);
